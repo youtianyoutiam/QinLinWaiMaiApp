@@ -1,0 +1,93 @@
+{  
+  "Login": [
+  { "id":1,"name":"admin","paw":123},{ "id":1,"name":"admin2","paw":123}
+],
+  "HomePage-top": [
+    { "name": "美食", "title": "icon-meishi1"},
+    { "name": "甜品", "title": "icon-meishi"},
+    { "name": "超市", "title": "icon-chaoshi"},
+    { "name": "生鲜", "title": "icon-shengxian-qingguo"},
+    { "name": "买药", "title": "icon-maiyao"},
+    { "name": "午餐", "title": "icon-wucan"},
+    { "name": "买酒", "title": "icon-jiubajiulang"},
+    { "name": "水果", "title": "icon-icon-test"},
+    { "name": "汉堡", "title": "icon-hanbao"},
+    { "name": "休闲饮品", "title":"icon-yinpin1"},
+    { "name": "夜宵", "title": "icon-yexiao"},
+    { "name": "吐司", "title": "icon-tusi"},
+    { "name": "跑腿", "title": "icon-paotuiAPP"},
+    { "name": "桂林", "title": "icon-guilin"},
+    { "name": "买药", "title": "icon-maiyao"},
+    { "name": "买药", "title": "icon-maiyao"}
+  ],
+  "HomePage-menu":[{
+     "id":1,
+     "img":"兰州洋芋片.jpg",
+     "name":"兰州洋芋片",
+     "Monthly":999,
+     "Price":50,
+     "type":1
+  },{
+    "id":2,
+    "img":"冰糖杨梅汁.jpg",
+    "name":"冰糖杨梅汁",
+    "Monthly":999,
+    "Price":50,
+    "type":2
+ },{
+  "id":3,
+  "img":"翡翠开背吓.jpg",
+  "name":"翡翠开背吓",
+  "Monthly":999,
+  "Price":50,
+  "type":3
+},
+{
+  "id":4,
+  "img":"麻辣龙虾尾.jpg",
+  "name":"麻辣龙虾尾",
+  "Monthly":999,
+  "Price":50,
+  "type":4
+},
+{
+  "id":5,
+  "img":"芒果奶冻.jpg",
+  "name":"芒果奶冻",
+  "Monthly":999,
+  "Price":50,
+  "type":1
+},{
+  "id":6,
+  "img":"茄子炒毛豆.jpg",
+  "name":"茄子炒毛豆",
+  "Monthly":999,
+  "Price":50,
+  "type":4
+},
+{
+  "id":7,
+  "img":"杨梅粉小汤圆.jpg",
+  "name":"杨梅粉小汤圆",
+  "Monthly":999,
+  "Price":50,
+  "type":2
+},
+{
+  "id":8,
+  "img":"洋葱炒肉.jpg",
+  "name":"洋葱炒肉",
+  "Monthly":999,
+  "Price":50,
+  "type":3
+},
+{
+  "id":9,
+  "img":"椰奶冻.jpg",
+  "name":"椰奶冻",
+  "Monthly":999,
+  "Price":50,
+  "type":1
+}
+]
+}
