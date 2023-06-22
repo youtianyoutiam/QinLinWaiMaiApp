@@ -30,9 +30,11 @@ let OrderPage = {
     },
     //签收一个
     OneReceiveOrder(state, id) {
+      console.log(state.OrderDateStatus, ' state.OrderDateStatus1');
       let index = state.OrderInformation.findIndex(i => i.id == id);
       state.OrderDateStatus.push({ ...state.OrderInformation[index], status: 1 });
       state.OrderInformation.splice(index, 1);
+      console.log(state.OrderDateStatus, ' state.OrderDateStatus2');
     },
     //取消订单
     CancelOrder(state, id) {

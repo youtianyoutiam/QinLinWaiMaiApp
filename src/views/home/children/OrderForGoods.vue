@@ -82,17 +82,33 @@ const FanHui = () => { router.go(-1) };
 //全部签收
 const QBQS = () => {
   showToast('已经全部签收');
-  store.commit('AllReceiveOrder')
+  store.commit('AllReceiveOrder');
+  valS.length = 0;
+  // valS = store.state.OrderPage.OrderInformation;
+  // valS.length = 0;
+  // store.state.OrderPage.OrderInformation.forEach(e => {
+  //   valS.push(e)
+  // })
 }
 //签收一个
-const OneQS = (id) => {
+const OneQS = async (id) => {
   showToast('已签收');
-  store.commit('OneReceiveOrder', id)
+  store.commit('OneReceiveOrder', id);
+  valS.length = 0;
+  store.state.OrderPage.OrderInformation.forEach(e => {
+    valS.push(e)
+  })
+  console.log(valS);
 }
 //取消订单
 const Cancel = (id) => {
   showToast('已取消');
   store.commit('CancelOrder', id)
+  valS = store.state.OrderPage.OrderInformation;
+  valS.length = 0;
+  store.state.OrderPage.OrderInformation.forEach(e => {
+    valS.push(e)
+  })
 }
 
 //搜索框
@@ -102,6 +118,7 @@ const value = ref('');
 //搜索框失去焦点
 const OrderCX = () => {
   console.log(CSvalS, '!!!!!!!!!!!!!!!!!!!!!!!!!');
+  console.log(valS, '########');
   if (value.value == '') {
     valS.length = 0;
     CSvalS.forEach(e => {
