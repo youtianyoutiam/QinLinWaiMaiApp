@@ -9,6 +9,7 @@ npm install
 ```
 npm run serve
 ```
+npm run mock
 
 ### Compiles and minifies for production
 ```
